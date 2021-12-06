@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+main
+{
+   
+background-image:url("./img/galaxy-g1d66a7fbd_1280.jpg");
+width: 100%;
+height:670px;
+background-size: cover;
+background-position: center bottom;
+filter: sepia(10%);
+
+}
+.lion_img
+{
+    margin-left: 650px;
+   max-height: 610px;
+  
+}
+
+.logo
+{
+    margin-top: -600px;
+    margin-left: 50px;
+}
+.title{
+    color: white;
+    font-family:'Lucida Sans' ;
+    font-size: 60px;
+ margin-left: 210px;
+ margin-top: 80px;
+}
+.navbar{
+    background-color: transparent;
+}
+
+.btn {
+ width: 190px;
+margin-left: 300px;
+margin-top: 100px;
+
+}
+
+
+
+button{
+    width: 190px;
+   margin-left: 300px;
+   margin-top: 100px;
+   color: white;
+   border-radius: 100px;
+  
+   border-collapse: separate; 
+
+   background-color: red;
+}
+
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #e6d6d6;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #636161;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+ 
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin-left: 300px;
+  margin-top:50px;
+width:160px;
+max-height: 50px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
